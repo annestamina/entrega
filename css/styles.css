@@ -1,0 +1,267 @@
+body {
+    background-color: #fffefb;
+    font-size: 20px;
+     font-family: "Nunito", sans-serif;
+     color: #004aad;  
+ }
+ a:link {
+    color: #E81E11;
+    text-decoration: none;
+ }
+ a:visited {
+    color: #004aad;
+    text-decoration: none;
+ }
+ /*HEADER*/
+ .header-navegacion {
+    padding: 2em;
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 80px 80px 510px 50px 70px;
+    justify-content: space-around;
+    align-items: center;
+    /*border: 2px solid red;*/
+ }
+ .menu1 {
+    /*border: 1px solid orange;*/
+    margin: auto;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    font-size: 0.8em;
+    text-align: center;
+    text-decoration: none;
+ }
+ .menu1:hover {
+    font-size: 1em;
+ }
+ .menu2 {
+    /*border: 1px solid green;*/
+    margin: auto;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    font-size: 0.8em;
+    text-align: center;
+    text-decoration: none;
+ }
+ .menu2:hover {
+    font-size: 1em;
+ }
+ .menu3 {
+    /*border: 1px solid orange;*/
+    margin: auto;
+    font-size: 0.8em;
+    text-align: center;
+    text-decoration: none;
+ }
+ .menu3:hover {
+    font-size: 1em;
+ }
+ .menu4 {
+    /*border: 1px solid green;*/
+    margin: auto;
+    font-size: 0.8em;
+    text-align: center;
+    text-decoration: none;
+ }
+ .menu4:hover {
+    font-size: 1em;
+ }
+ 
+ /*MAIN*/
+ main {
+    border: 2px dotted #fffefb;
+ }
+ .indexmain {
+    display: grid;
+    grid-template-rows: repeat(2, 200px);
+    grid-template-columns: repeat(2, 1fr);
+ }
+ .indexmaintexto {
+    /*border: 1px solid purple;*/
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    grid-row: 1/2;
+    grid-column: 1/2;
+ }
+ .main-slogan {
+    /*border: 1px solid cyan;*/
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    font-size: 3em;
+    color:#E81E11;
+    font-weight: 400;
+    font-family: "Sacramento", cursive;
+ }
+ .indexmaingalletas {
+    /*border: 1px solid salmon;*/
+    grid-row: 1/3;
+    grid-column: 2/3;
+    margin: auto;
+    max-width: 80%;
+    height: auto;
+ 
+ }
+ .nosotros__titulo {
+     /*border: 1px solid cyan;*/
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     grid-row: 2/3;
+     grid-column: 1/2;
+     font-size: 3em;
+     color:#E81E11;
+     font-weight: 400;
+     font-family: "Sacramento", cursive;
+ }
+ .nosotros__desc {
+    border: 1px dotted dodgerblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .nosotros__desc p {
+    border: 1px solid sandybrown;
+    height: fit-content;
+    text-align: center;
+ }
+ .nosotros__desc img {
+    border: 1px solid cyan;
+    border-radius: 50px;
+ }
+ .card--productos {
+    --bs-card-spacer-y: .5rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;     
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    color: var(--bs-body-color);
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+ }
+ /*ASIDE*/
+ .indexasidenosotros {
+    /*border: 1px dotted red;*/
+    display: flex;
+    justify-content: space-around;
+ }
+ .indexasidefoto {
+    border: 1px solid #fffefb;
+ }
+ .indexasidetexto {
+    /*border: 1px solid springgreen;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .conocenoslink {
+    font-size: 3em;
+    color:#E81E11;
+    font-weight: 400;
+    font-family: "Sacramento", cursive;
+ }
+ .conocenoslink:hover {
+    font-size: 3.5em;
+ }
+ .indexasidebestsellers {
+    /*border: 1px solid slateblue;*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .losmasvendidos {
+    /*border: 1px solid brown;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 3em;
+    color:#E81E11;
+    font-weight: 400;
+    font-family: "Sacramento", cursive;
+ 
+ }
+ .masvendidosfotos {
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: space-around;
+ }
+ .card--masvend {
+    --bs-card-spacer-y: .5rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;     
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    color: var(--bs-body-color);
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+ }
+ .card-text {
+    color: #004aad;
+    display: flex;
+    justify-content: center;
+ }
+ .catalogo {
+    /*border: 1px solid violet;*/
+    padding-top: 1em ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-family: "Sacramento", cursive;
+ }
+ .catalogo:hover {
+    font-size: 2.5em;
+ }
+ .encuentranos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .mapsencuentranos {
+    font-size: 3em;
+    color:#E81E11;
+    font-weight: 400;
+    font-family: "Sacramento", cursive;
+ }
+ .footer-redessociales {
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .autor {
+    display: flex;
+    justify-content: center;
+    font-size: .8em;
+ }
