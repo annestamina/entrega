@@ -252,12 +252,19 @@ body {
  }
  /*ASIDE--PRODUCTOS*/
  .grid-productos {
-   border: 1px dotted magenta;
+   /*border: 1px dotted magenta;*/
    display: flex;
    justify-content: space-between;
  }
  .productos-descripciones {
    text-align: center;
+ }
+ /*ASIDE--FAQS*/
+ .faqs-principal {
+   /*border: 1px double darkred;*/
+ }
+ .pregunta {
+   color: #E81E11;
  }
  /*FOOTER*/
  .footer-redessociales {
