@@ -261,10 +261,25 @@ body {
  }
  /*ASIDE--FAQS*/
  .faqs-principal {
-   /*border: 1px double darkred;*/
+   border: 1px double #fffefb;
  }
  .pregunta {
    color: #E81E11;
+ }
+ /*ASIDE--CONTACTO*/
+ .contacto__aside__ubicacion {
+   display: flex;
+   flex-direction: column;
+ }
+ .contacto__aside__ubicacion__encabezado {
+   font-size: 3em;
+    color:#004aad;
+    font-weight: 400;
+    font-family: "Sacramento", cursive;
+ }
+ .contacto_maps {
+   display: flex;
+   max-width: 100%;
  }
  /*FOOTER*/
  .footer-redessociales {
