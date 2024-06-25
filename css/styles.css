@@ -192,7 +192,6 @@ body {
     color:#E81E11;
     font-weight: 400;
     font-family: "Sacramento", cursive;
- 
  }
  .masvendidosfotos {
     /*border: 1px solid red;*/
@@ -250,6 +249,15 @@ body {
     color:#E81E11;
     font-weight: 400;
     font-family: "Sacramento", cursive;
+ }
+ /*ASIDE--PRODUCTOS*/
+ .grid-productos {
+   border: 1px dotted magenta;
+   display: flex;
+   justify-content: space-between;
+ }
+ .productos-descripciones {
+   text-align: center;
  }
  /*FOOTER*/
  .footer-redessociales {
