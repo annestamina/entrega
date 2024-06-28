@@ -253,15 +253,15 @@ body {
  }
  /*ASIDE--PRODUCTOS*/
  .grid-productos {
-   border: 1px dotted magenta;
+   border: 1px dotted #fffefb;
    display: flex;
    justify-content: space-around;
  }
  .card--productos {
-   border: 1px solid green;
+   border: 1px solid #fffefb;
  }
  .productos-descripciones {
-   border: 1px solid cyan;
+   border: 1px solid #fffefb;
    text-align: center;
  }
  /*ASIDE--FAQS*/
