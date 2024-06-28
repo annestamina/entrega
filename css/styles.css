@@ -107,6 +107,7 @@ body {
  }
  .titulos {
      /*border: 1px solid cyan;*/
+     padding-bottom: .5em;
      display: flex;
      justify-content: center;
      align-items: flex-start;
@@ -252,11 +253,15 @@ body {
  }
  /*ASIDE--PRODUCTOS*/
  .grid-productos {
-   /*border: 1px dotted magenta;*/
+   border: 1px dotted magenta;
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
+ }
+ .card--productos {
+   border: 1px solid green;
  }
  .productos-descripciones {
+   border: 1px solid cyan;
    text-align: center;
  }
  /*ASIDE--FAQS*/
