@@ -270,6 +270,11 @@ body {
  }
  .pregunta {
    color: #E81E11;
+   padding-left: 0.5em;
+   font-size: 1.2em;
+ }
+ .respuesta {
+   padding-left: 0.8em;
  }
  /*ASIDE--CONTACTO*/
  .contacto__aside__ubicacion {
