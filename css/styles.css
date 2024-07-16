@@ -194,6 +194,9 @@ body {
     font-weight: 400;
     font-family: "Sacramento", cursive;
  }
+ .losmasvendidos p {
+   margin-top: 1em;
+ }
  .masvendidosfotos {
     /*border: 1px solid red;*/
     display: flex;
